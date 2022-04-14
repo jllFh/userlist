@@ -1,5 +1,5 @@
 <template>
-  <div class="grid-cols-4 gap-3 wrap-row">
+  <div class="grid-cols-4 gap-3 wrap-row mt-24">
   <div class=" w-80  h-96 m-6  text-center relative rounded-xl  glass-box " v-for="item in $store.state.items" :key="item.name">
     <div><img  :src="item.img" alt="" class="w-32 h-32 img-absolute shadow rounded-xl"></div>
     <div class=" w-auto absolute right-0 text-right mt-10 mr-5 " >
@@ -18,7 +18,6 @@
     </div>
  
 
-  <div ></div>
   </div> 
   <br>
 
