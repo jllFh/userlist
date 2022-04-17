@@ -11,7 +11,6 @@
       {{item.description}} 
     </div>
     <div class="w-40  absolute bottom-0 right-20 flex  content-center justify-around mb-2 text-2xl">
-      <a :href="item.twitter" > <i class="fa-brands fa-twitter "></i></a>
       <a :href="item.instagram" > <i class="fa-brands fa-instagram"></i></a>
       <a :href="item.linkedin" >    <i class="fa-brands fa-linkedin-in"></i></a>
       <a :href="item.telegram" >   <i class="fa-brands fa-telegram"></i></a>
@@ -19,8 +18,6 @@
  
 
   </div> 
-  <br>
-
   </div>
 
   

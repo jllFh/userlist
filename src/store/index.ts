@@ -11,7 +11,7 @@ export default createStore({
         twitter : 'https://tailwindcss.com/docs/text-color',
         instagram : '',
         linkedin : '',
-      }
+      } 
      
     ] 
   },
