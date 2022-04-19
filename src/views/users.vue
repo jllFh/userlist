@@ -1,6 +1,6 @@
 <template>
   <div class="grid-cols-4 gap-3 wrap-row mt-24">
-  <div class=" w-80  h-96 m-6  text-center relative rounded-xl  glass-box " v-for="item in $store.state.items" :key="item.name">
+  <div class=" w-80  h-96 m-6  text-center relative rounded-xl  glass-box " v-for="item in $store.state.items" :key="item.id">
     <div><img  :src="item.img" alt="" class="w-32 h-32 img-absolute shadow rounded-xl"></div>
     <div class=" w-auto absolute right-0 text-right mt-10 mr-5 " >
       <h1>{{item.name}} <i class="fa-solid fa-user"></i></h1> 
@@ -19,6 +19,12 @@
 
   </div> 
   </div>
-
+ 
   
 </template>
+
+<script>
+export default {
+  
+}
+</script>
